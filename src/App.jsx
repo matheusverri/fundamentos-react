@@ -2,12 +2,13 @@ import { useState } from 'react'
 import Challenge from './components/Challenge'
 import './App.css'
 import ImprimirLista from './components/ImprimirLista'
+import Props from './components/Props'
 
 function App() {
 
   return (
     <>
-      <ImprimirLista />
+      <Props nome="Matheus" sobrenome="Verri"/>
     </>
   )
 }
